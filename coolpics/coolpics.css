@@ -88,9 +88,6 @@ footer {
     .gallery {
         grid-template-columns: 1fr 1fr; /* Two columns for medium screens */
     }
-    #menuToggle {
-        display: none;
-    }
 }
 
 @media screen and (min-width: 1000px) {
