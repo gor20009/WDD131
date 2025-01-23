@@ -11,7 +11,7 @@
 body {
     font-family: var(--primary-font);
     font-size: 1.2em;
-    margin: 0;
+    margin:auto 0;
     background-color: lightgray;
 }
 
@@ -48,7 +48,7 @@ nav ul {
 
 nav li {
     display: inline-block;
-    margin: 0 1em;
+    margin:0 3em;
 }
 
 main {
@@ -63,6 +63,14 @@ main {
 
 figure {
     width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-left:0;
+}
+
+h2 {
+    text-align: center;
 }
 
 footer {
