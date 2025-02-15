@@ -30,14 +30,12 @@ nav ul {
 main {
     display: grid;
     grid-template-columns: 2fr 1fr;
-    gap: 20px;
-    padding: 20px;
+    gap: 30px;
+    padding: 30px;
 }
 
 .articles {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    gap: 10px;
+    grid-column: 1 / 2;
 }
 
 .article-content {
@@ -88,4 +86,51 @@ nav {
     max-width: 200px;
     max-height: 300px;
     margin-left: 120px;
+}
+
+.article {
+    border-radius: 8px; 
+    margin-bottom: 20px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+}
+
+.article-details {
+    display: flex;
+    flex-direction: column;
+    color: #777;
+    font-size: 0.9em;
+}
+
+.article-details date, .article-details .age-range, .article-details .genre, .article-details .rating {
+    margin-bottom: 5px;
+}
+
+.article-content h2 {
+    margin-top: 0;
+    color: #AF1B3F;
+}
+
+.article-content img {
+    max-width: 150px; 
+    max-height: 225px;
+    float: left;
+    margin: 0 20px 10px 0;
+    object-fit: cover;
+}
+
+.article-content p {
+    margin-bottom: 10px;
+}
+
+.article-content a {
+    color: #EFC69B;
+    text-decoration: underline;
+}
+.filters {
+    grid-column: 2 / 3;
+    padding: 20px;
+    border: 1px solid #EFC69B; 
 }
