@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Background circle -->
+  <circle cx="100" cy="100" r="90" fill="#E2D2B8" />
+  
+  <!-- J letter -->
+  <path d="M65 50 L65 120 Q65 135 50 135 L45 135" stroke="#146670" stroke-width="12" stroke-linecap="round" fill="none" />
+  
+  <!-- G letter -->
+  <path d="M140 70 Q115 50 100 55 Q80 60 75 85 Q70 110 85 130 Q100 150 125 140 L135 135 L135 105 L115 105" stroke="#146670" stroke-width="12" stroke-linecap="round" fill="none" />
+  
+  <!-- Accent dots -->
+  <circle cx="45" cy="135" r="6" fill="#D86035" />
+  <circle cx="115" cy="105" r="6" fill="#C88691" />
+</svg>
