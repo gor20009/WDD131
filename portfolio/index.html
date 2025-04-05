@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio - Home</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <div class="title">
+            <h1>Personal Portfolio</h1>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="interests.html">Interests & Hobbies</a></li>
+                <li><a href="site-plan.html">Site Plan</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="filter-section">
+            <button class="filter-option active" data-filter="all">Show All</button>
+            <button class="filter-option" data-filter="resume">Resume</button>
+            <button class="filter-option" data-filter="profile">Profile</button>
+        </div>
+
+        <div class="main-content">
+            <section class="resume-section" data-section="resume">
+                <div class="resume-image" id="resumeImage">
+                    <img src="images/RESUME2025.jpg" alt="Resume" class="image-content">
+                </div>
+                <div class="resume-content">
+                    <h2>Professional Experience & Accomplishments</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae legendos at vix ad putem delectus delicata usu. Vidit dissentiet eos cu eum an brute copiosae hendrerit. Eos erant dolorum an. Per facer affert ut. Mei iisque mentitum moderatius cu. Sit munere facilis accusam eu dicat falli consulatu at vis. Te facilisis mnesarchum qui posse omnium mediocritatem est cu. Modus argumentum ne qui tation efficiendi in eos. Ei mea falli legere efficiantur et tollit aliquip debitis mei. No deserunt mediocritatem mel. Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae legendos at vix ad putem.
+                    </p>
+                </div>
+            </section>
+
+            <section class="career-goals-section" data-section="profile">
+                <div class="career-goals-content">
+                    <h2>Career Goals & Ambitions</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae legendos at vix ad putem delectus delicata usu. Vidit dissentiet eos cu eum an brute copiosae hendrerit. Eos erant dolorum an. Per facer affert ut. Mei iisque mentitum moderatius cu. Sit munere facilis accusam eu dicat falli consulatu at vis. Te facilisis mnesarchum qui posse omnium mediocritatem est cu. Modus argumentum ne qui tation efficiendi in eos. Ei mea falli legere efficiantur et tollit aliquip debitis mei. No deserunt mediocritatem mel. Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae legendos at vix ad putem.
+                    </p>
+                </div>
+                <div class="profile-image" id="profileImage">
+                    <img src="images/AloneImage.jpg" alt="Image of Jaxon" class="image-content">
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <div id="zoomModal" class="zoom-modal">
+        <div class="zoom-content">
+            <div class="close-btn">&times;</div>
+            <div id="zoomImage"></div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
