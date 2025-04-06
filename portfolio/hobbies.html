@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio - Interests & Hobbies</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="hobbies.css">
+    <link rel="icon" href="images/jg-logo.svg">
+</head>
+<body>
+    <header>
+        <div class="title">
+            <h1>Personal Portfolio</h1>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="hobbies.html">Interests & Hobbies</a></li>
+                <li><a href="site-plan.html">Site Plan</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="filter-section">
+            <button class="filter-option active" data-filter="all">Show All</button>
+            <button class="filter-option" data-filter="travel">Travel</button>
+            <button class="filter-option" data-filter="sports">Sports</button>
+            <button class="filter-option" data-filter="hunting">Hunting</button>
+        </div>
+
+        <div class="main-content">
+            <h2>More About Me</h2>
+            <div class="hobbies-description">
+                <p>
+                    I maintain a strong commitment to my personal interests and relationships. My wife and I enjoy exploring nature through hiking and international travel. Bird hunting in the cornfields of Idaho and Utah with my father and brothers provides meaningful family connection. As an avid sports enthusiast, I value attending MLB and NFL games. These personal pursuits drive my ambition for success in both my career and entrepreneurial ventures.
+                </p>
+            </div>
+
+            <div class="gallery-grid">
+                <div class="gallery-item" data-section="travel">
+                    <div class="gallery-image" id="travelImage1">
+                        <img src="images/RomeTempleImage.jpg" alt="Rome Italy LDS Temple" class="image-content">
+                    </div>
+                    <h3>LDS Temple Rome, Italy</h3>
+                </div>
+
+                <div class="gallery-item" data-section="travel">
+                    <div class="gallery-image" id="travelImage2">
+                        <img src="images/HorseshoeImage.jpg" alt="Arizona Horseshoe Bend" class="image-content">
+                    </div>
+                    <h3>Horseshoe Bend, Arizona</h3>
+                </div>
+
+                <div class="gallery-item" data-section="sports">
+                    <div class="gallery-image" id="sportsImage">
+                        <img src="images/BaseballImage.jpg" alt="Baseball Game" class="image-content">
+                    </div>
+                    <h3>White Sox Baseball Game</h3>
+                </div>
+
+                <div class="gallery-item" data-section="hunting">
+                    <div class="gallery-image" id="huntingImage">
+                        <img src="images/GooseHuntImage.jpg" alt="Duck Hunting" class="image-content">
+                    </div>
+                    <h3>Duck Hunting</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="zoomModal" class="zoom-modal">
+        <div class="zoom-content">
+            <div class="close-btn">&times;</div>
+            <div id="zoomImage"></div>
+        </div>
+    </div>
+
+    <script src="hobbies.js"></script>
+</body>
+</html>
